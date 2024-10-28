@@ -16,3 +16,38 @@ h1, h2, h3{
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+/* header */
+.site-header {
+    background-image: url(./img/header.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: top right;
+    color: white;
+}
+
+.site-header a {
+    color: white;
+    padding-right: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* utilities */
+
+/* about */
+.about-container {
+    display: flex; 
+    gap: 20px;
+}
+
+/* houses */
+.houses.item {
+    background-color: #dedede;
+    margin-right: 10px;
+}
