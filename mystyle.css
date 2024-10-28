@@ -51,3 +51,41 @@ h1, h2, h3{
     background-color: #dedede;
     margin-right: 10px;
 }
+
+.houses-item-text {
+    margin: 0 20px;
+}
+
+
+.icons-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.icon-container p {
+    display: inline;
+    vertical-align: top;
+    margin-right: 20px;
+}
+
+.icon-container img {
+    margin: 5px;
+    margin-top: 20px;
+}
+
+
+
+.btn {
+    background-color: orange;
+    display: block;
+    display: flex; 
+    justify-content: center;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-bottom: 20px;
+}
