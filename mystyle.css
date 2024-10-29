@@ -34,8 +34,8 @@ h1, h2, h3{
 .container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* utilities */
@@ -47,22 +47,42 @@ h1, h2, h3{
 }
 
 /* houses */
-.houses.item {
+.houses-item {
     background-color: #dedede;
     margin-right: 10px;
+}
+
+.houses-item-img {
+    width: 100%;
+} 
+
+#house-img {
+    width: 100%;
+}
+
+.houses-container {
+    width: 100%;
 }
 
 .houses-item-text {
     margin: 0 20px;
 }
 
+.house-main-container {
+   display: flex;
+}
+
+/* icons ==================== info */
 
 .icons-list {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+.price {
+    color: green;
 }
 
 .icon-container p {
@@ -72,6 +92,7 @@ h1, h2, h3{
 }
 
 .icon-container img {
+    max-width: 50px;
     margin: 5px;
     margin-top: 20px;
 }
