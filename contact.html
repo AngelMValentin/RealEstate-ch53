@@ -33,22 +33,22 @@
                         Personal information
                     </legend>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="name">Name:</label>
                         <input id="name" type="text"></input>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="email">Email:</label>
                         <input id="email" type="email"></input>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="phone">Phone Number:</label>
                         <input id="phone" type="tel"></input>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="message">Message</label>
                         <textarea id="message"></textarea>
                     </div>
@@ -60,7 +60,7 @@
                         Product information
                     </legend>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="type">Type:</label>
                         <select id="type">
                             <option>--- option 1 ---</option>
@@ -69,7 +69,7 @@
                         </select>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="product-number">Number:</label>
                         <input id="product-number" placeholder="serial #" type="number"></input>
                     </div>
@@ -80,23 +80,23 @@
                         Contact information
                     </legend>
 
-                    <div class="radio">
-                        <div>
-                            <label class="radio" for="contact-email">Email:</label>
-                            <input class="radio" id="contact-email" type="radio"></input>
+                    <div class="flex-container">
+                        <div class="radio">
+                            <label class="radio1" for="contact-email">Email:</label>
+                            <input class="radio1" id="contact-email" type="radio"></input>
                         </div>
-                        <div>
-                            <label class="radio" for="contact-phone">Phone</label>
-                            <input class="radio" id="contact-phone" type="radio"></input>
+                        <div class="radio">
+                            <label class="radio1" for="contact-phone">Phone</label>
+                            <input class="radio1" id="contact-phone" type="radio"></input>
                         </div>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="date">Date:</label>
                         <input id="date" type="date"></input>
                     </div>
 
-                    <div>
+                    <div class="flex-container">
                         <label for="hour">Hour</label>
                         <input id="hour" type="text"></input>
                     </div>
@@ -109,11 +109,12 @@
     <footer>
         <div class="contact-footer-container">
             <div>
-                <p>power by<span>zillow</span></p>
+                <p>Powered by <span class="link">Zillow</span></p>
             </div>
-            <div>
-                <p class="copyright-privacy">copyright 2024</p>
-                <p class="copyright-privacy">privacy policy</p>
+            <div class="copyright-container">
+                <p class="copyright-privacy">Copyright 2024</p>
+                <p><span class="bold-bar">|</span></p>
+                <p class="copyright-privacy"><span class="link">Privacy Policy</span></p>
             </div>
             <div class="social-media">
                 <div class="logo">
