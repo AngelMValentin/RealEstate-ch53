@@ -220,3 +220,36 @@ fieldset {
 .copyright-container {
     display: flex;
 }
+
+/* ABOUT ============================= */
+
+.about-img {
+    width: 900px;
+    height: 600px;
+}
+
+/* MOBILE VIEW AND WEB RESPONSE ======================= */
+
+@media (min-width: 600px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    body {
+        width: 100%;
+    }
+}
